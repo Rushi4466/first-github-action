@@ -1,14 +1,13 @@
 name: rushikesh
 
-on: 
- push: 
-  branches: [ main ]
+on:
+  push:
+    branches: [main]
 
-  jobs:
-     demo:
-       runs-on: ubuntu-latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-       steps:
-        - name: Greetings
-          run: echo "hello from rushi"
-           
+    steps:
+      - name: Greetings
+        run: echo "hello from rushi"
